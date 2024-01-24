@@ -1,43 +1,20 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![[tktk Postman Setup]](./assets/tktk-hero.png)
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+Welcome to the Postman Setup lab! In this lab, you will learn how to download and install Postman, create a Postman account, and make a `GET` request.
 
 ## Prerequisites
 
-- tktk
+- HTTP Request Response Cycle
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
-
-## Starter code
-
-tktk If there is not a starter code repo that students will fork and clone to start this lab, then this section and all of its content should be removed.
-
-🟢 [Starter code](#tktk-repository-for-starter-code)
+Estimated time to complete core lab exercise: **30 min**
 
 ## Content
 
-- [Setup](./setup/README.md)
-- [Exercise](./exercise/README.md)
-
-## Level Up
-
-🚀 [Level Up](./level-up/README.md) tktk - remove section if no level ups exist.
-
-## Solution code
-
-🏁 [tktk Solution code](#tktk-external-repo-link-url)
-
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
+- [Lab exercise](./exercise/README.md)
 
 ## Internal resources
 
