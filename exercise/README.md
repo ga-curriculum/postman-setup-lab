@@ -1,6 +1,6 @@
 # ![[tktk Postman Setup Lab] - Exercise](./assets/hero.png)
 
-Welcome to the Postman Setup lab. In this lab, we will guide you through installing and using Postman for the first time. In the response and request cycle, a client sends a response and processes responses from a server. While we've previously explored the browser as a client, it's important to note that various clients can make requests to a server. Some of these clients are:
+Welcome to the Postman Setup lab. In this lab, we will guide you through installing and using Postman for the first time. In the response and request cycle, a client sends a request and processes responses from a server. While we've previously explored the browser as a client, it's important to note that various clients can make requests to a server. Some of these clients are:
 
 - [cURL](https://curl.se/)
 - [JMeter](https://jmeter.apache.org/)
@@ -55,7 +55,7 @@ Sign up for a Postman account [here](https://www.postman.com/postman-account/). 
 
 ![Sign Up](./assets/sign-up.png)
 
-You can use your Google account, enter your email address, and create a password. Click the `Sign Up` button.
+You can use your Google account or, enter your email address, and create a password. Click the `Sign Up` button.
 
 ![Sign Up Form](./assets/sign-up-form.png)
 
@@ -87,7 +87,7 @@ Let's take a look at the different sections of the Workspace. By clicking on the
 
 ![Environments](./assets/environments.png)
 
-**Environments** are a way to store variables. This acts like a `.env` file. We can store things like API keys, but we can also store root URLs here. This allows us to easily switch between environments. For example, we can have a development environment and a production environment. We can store the root URL for each environment in the environment and easily switch between the two.
+**Environments** are a way to store variables. This acts like a `.env` file. We can store things like API keys, but we can also store root URLs here. This allows us to easily switch between environments. For example, we can have a development environment and a production environment. We can store the root URL for each environment in the environments and easily switch between the two.
 
 ![History](./assets/history.png)
 
@@ -95,7 +95,7 @@ Let's take a look at the different sections of the Workspace. By clicking on the
 
 ## Make a GET Request
 
-We will make a `GET` request to the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/). This API is a fake API that returns fake data. This is a great API to use when learning how to make requests to an API. We will be making a request to the [posts](https://jsonplaceholder.typicode.com/posts) endpoint. This endpoint will return a list of posts.
+We will make a `GET` request to the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/). This API is an API that returns fake data. This is a great API to use when learning how to make requests to an API. We will be making a request to the [posts](https://jsonplaceholder.typicode.com/posts) endpoint. This endpoint will return a list of posts.
 
 To make a new request, make sure your left sidebar is open by clicking on any of the icons located on the left-hand side. Once the left sidebar is open, click the `New` button.
 
@@ -110,7 +110,7 @@ This will open a new request tab in Postman. Let's walk through the different pa
 ![Request Interface](./assets/request-interface.png)
 
 1. **Request Name** - Name of the request. Requests can be renamed when saving the request. Requests can be named anything we want. This is a great way to keep track of what the request is doing. For example, we can name this request `Get Posts`.
-2. **Request Type** - A drop-down menu of the requests we can make. The default is `GET`. We can change the request type by clicking on the drop-down menu and selecting a different request type.
+2. **Request Method** - A drop-down menu of the requests we can make. The default is `GET`. We can change the request method by clicking on the drop-down menu and selecting a different request method.
 3. **Request URL** - The URL of the request. This is where we will enter the URL we want to make a request to.
 4. **Save** - This button saves the current request for later use.
 5. **Send** - The button we will click to send the request. This will send the request to the URL we have entered in the request URL input box.
@@ -147,7 +147,7 @@ A window will pop up asking us to name the request and provide a collection name
 
 ![Save Request](./assets/save-request.png)
 
-Click the `Save to JSONPlaceholder API` button. The request is now saved. We can see this by looking at the tab. The orange dot is gone, and the request name is now `Get Posts`. We can also see in our `Collections` section on the left-hand side, there is a new collection called `JSONPlaceholder API`. If we click on the collection, we will see our request.
+Click the `Save` button. The request is now saved. We can see this by looking at the tab. The orange dot is gone, and the request name is now `Get Posts`. We can also see in our `Collections` section on the left-hand side, there is a new collection called `JSONPlaceholder API`. If we click on the collection, we will see our request.
 
 ![Saved Request](./assets/saved-request.png)
 
