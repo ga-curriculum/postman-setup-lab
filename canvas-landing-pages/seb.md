@@ -1,4 +1,4 @@
-# ![Postman Setup Lab](../assets/tktk-hero.png)
+# ![Postman Setup Lab](../assets/hero.png)
 
 ## About
 
