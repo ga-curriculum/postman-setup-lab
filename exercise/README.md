@@ -10,9 +10,7 @@ Welcome to the Postman Setup lab. In this lab, we will guide you through install
 
 Let's take a look at where Postman fits into the client-server relationship.
 
-- tktk Hunter - I like the below image from the postman docs however it does look like there might be 2 postman; one sending a request and one recieving the response. I'm not sure if that would be confusing to students but if we could take the same idea and make there only be one postman doing both actions. Can we use `https://jsonplaceholder.typicode.com/posts` as the URL replacement? 
-
-![tktk-hunter-ref-1](./assets/tktk-hunter-ref-1.png)
+![Postman request-response flow](./assets/postman-flow.png)
 
 Postman is a tool that allows us to make requests to a URL and then process the response. Above, we can see that without a browser or code, we can:
 
@@ -28,7 +26,6 @@ Postman opens a world of possibilities for us as developers:
 - **Tests** - JavaScript tests can be written to validate the response from an API request.
 - **Documentation** - Allows us to automatically create documentation for our APIs.
 - **Collaboration** - Allows an almost GitHub-like experience for collaborating on APIs, including version control.
-
 
 Simply said, Postman is a powerful tool that allows developers a lot of flexibility when working with APIs. In this module, we will focus on some of Postman's basics. We will explore the interface, make requests, and save requests.
 
@@ -51,19 +48,19 @@ You have the option to create an account with Postman. This is not required to u
 
 Sign up for a Postman account [here](https://www.postman.com/postman-account/). Click the `Sign Up` button.
 
-![Sign Up - tktk hunter, these need the correct ratio](./assets/sign-up.png)
+![Sign Up](./assets/sign-up.png)
 
 You can use your Google account or, enter your email address, and create a password. Click the `Sign Up` button.
 
-![Sign Up Form- tktk hunter, these need the correct ratio](./assets/sign-up-form.png)
+![Sign Up Form](./assets/sign-up-form.png)
 
 Once you have signed up, you will be taken to the Postman dashboard. Open your desktop Postman application. Located in the upper right corner, click on the `Sign In` button.
 
-![Sign In- tktk hunter, these need the correct ratio](./assets/sign-in.png)
+![Sign In](./assets/sign-in.png)
 
 Postman will display a window saying `Sign in from your browser to continue`.
 
-![Sign In From Browser- tktk hunter, these need the correct ratio](./assets/sign-in-from-browser.png)
+![Sign In From Browser](./assets/sign-in-from-browser.png)
 
 Follow the steps in the browser to sign in to the account you just created. Once you have signed in, you will be returned to the Postman application.
 
@@ -73,29 +70,29 @@ Follow the steps in the browser to sign in to the account you just created. Once
 
 Let's visit our Workspace in Postman. The Workspace is where we will spend most of our time in Postman. It is where we will make requests, save them, and organize them into collections. Open the Postman application, click the **Workspace** tab, and select **My Workspace**.
 
-![Workspace Tab- tktk hunter, these need the correct ratio](./assets/workspace-tab.png)
+![Workspace Tab](./assets/workspace-tab.png)
 
 Once in the Workspace, we will see the following:
 
-![My Workspace- tktk hunter, these need the correct ratio](./assets/my-workspace.png)
+![My Workspace](./assets/my-workspace.png)
 
 Let's take a look at the different sections of the Workspace. By clicking on the left sidebar, we can toggle the visibility of the different sections and open and close the sidebar itself. 
 
 ### Collections
 
-![Collections- tktk hunter, these need the correct ratio](./assets/collections.png)
+![Collections](./assets/collections.png)
 
 **Collections** are a way to organize our requests. This is a folder-like structure where the request can be grouped together like files in a folder. 
 
 ### Environments
 
-![Environments- tktk hunter, these need the correct ratio](./assets/environments.png)
+![Environments](./assets/environments.png)
 
 **Environments** are a way to store variables. This acts like a `.env` file. We can store things like API keys, but we can also store root URLs here. This allows us to easily switch between environments. For example, we can have a development environment and a production environment. We can store the root URL for each environment in the environments and easily switch between the two.
 
 ### History
 
-![History- tktk hunter, these need the correct ratio](./assets/history.png)
+![History](./assets/history.png)
 
 **History** is a list of the requests we have made. This is a great way to quickly find a request we have made in the past.
 
@@ -105,11 +102,11 @@ Let's practice making a `GET` request using the [JSONPlaceholder API](https://js
 
 To make a new request, make sure your left sidebar is open by clicking on any of the icons located on the left-hand side. Once the left sidebar is open, click the `New` button.
 
-![New Button- tktk hunter, these need the correct ratio](./assets/new-button.png)
+![New Button](./assets/new-button.png)
 
 This will open a window where we can select what new action we want to create. Select `HTTP` from the list.
 
-![New HTTP Request- tktk hunter, these need the correct ratio](./assets/new-http-request.png)
+![New HTTP Request](./assets/new-http-request.png)
 
 This will open a new request tab in Postman. 
 
@@ -117,7 +114,7 @@ This will open a new request tab in Postman.
 
 Let's walk through the different parts of the request interface:
 
-![Request Interface- tktk hunter, these need the correct ratio](./assets/request-interface.png)
+![Request Interface](./assets/request-interface.png)
 
 1. **Request Name**: This is where you label your request for easy identification. You have the flexibility to name it anything that helps you remember its purpose. For instance, a request to fetch blog posts could be named `Get Posts`.
 2. **Request Method:** Here, you'll find a dropdown menu listing different types of `HTTP` requests. The default selection is `GET`, but you can change it to other methods like `POST`, `PUT`, etc., by selecting from this menu.
@@ -133,7 +130,7 @@ Let's make a `GET` request to the [posts](https://jsonplaceholder.typicode.com/p
 1. Enter `https://jsonplaceholder.typicode.com/posts` into the request URL input box. 
 2. Click the `Send` button.
 
-![GET Posts- tktk hunter, these need the correct ratio](./assets/get-posts.png)
+![GET Posts](./assets/get-posts.png)
 
 ### Review the response
 
@@ -141,7 +138,7 @@ In the bottom part of the interface, we can see the response from the API.
 
 Let's dive into the different parts of the response:
 
-![Response Interface- tktk hunter, these need the correct ratio](./assets/response-interface.png)
+![Response Interface](./assets/response-interface.png)
 
 1. **Body** - The body of the response. This is where we will see the data returned from the API.
 2. **Headers** - The headers of the response. This is where we will see the headers returned from the API.
@@ -158,20 +155,20 @@ Now that we have made a request, let's save it. Saving a request allows us to ac
 
 Looking at the tab, we can easily see if a request is unsaved. If there is a little orange dot next to the request name, the request is unsaved. 
 
-![Unsaved Request- tktk hunter, these need the correct ratio](./assets/unsaved-request.png)
+![Unsaved Request](./assets/unsaved-request.png)
 
 To save a request, click on the `Save` button on the right side. 
 
-![Save Button- tktk hunter, these need the correct ratio](./assets/save-button.png)
+![Save Button](./assets/save-button.png)
 
 A window will pop up asking us to name the request and provide a collection name. Let's name the request `Get Posts` and create a new collection called `JSONPlaceholder API`.
 
-![Save Request- tktk hunter, these need the correct ratio](./assets/save-request.png)
+![Save Request](./assets/save-request.png)
 
 Click the `Save` button. The orange dot is gone, and the request name is now `Get Posts`. The request is saved. 
 
 We can also see in our `Collections` section on the left-hand side, there is a new collection called `JSONPlaceholder API`. If we click on the collection, we will see our request.
 
-![Saved Request- tktk hunter, these need the correct ratio](./assets/saved-request.png)
+![Saved Request](./assets/saved-request.png)
 
 Great job! You've just successfully completed your first request using Postman and saved it in a collection. With Postman now in your tool belt, you can rapidly develop and test backend applications without relying on a frontend or a web browser. 
