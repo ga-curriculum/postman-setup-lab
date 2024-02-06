@@ -27,7 +27,7 @@ Postman opens a world of possibilities for us as developers:
 - **Documentation** - Allows us to automatically create documentation for our APIs.
 - **Collaboration** - Allows an almost GitHub-like experience for collaborating on APIs, including version control.
 
-Simply said, Postman is a powerful tool that allows developers a lot of flexibility when working with APIs. In this module, we will focus on some of Postman's basics. We will explore the interface, make requests, and save requests.
+Simply said, Postman is a powerful tool that allows developers a lot of flexibility when working with APIs. In this lab, we will focus on some of Postman's basics. We will explore the interface, make requests, and save requests.
 
 ## Download and Install Postman
 
@@ -41,7 +41,9 @@ If you are using a Mac, you will be prompted to drag the Postman icon into your 
 
 ## Create a Postman Account (Optional)
 
-You have the option to create an account with Postman. This is not required to use Postman, but it does offer some options that might be useful in the future:
+You have the option to create an account with Postman. This is not required to use basic features of Postman, but it is required to access certain features like Workspace. 
+
+It also offers some options that might be useful in the future:
 
 - **Sync** - Allows us to sync our Postman data across devices.
 - **Team** - Allows us to collaborate with others on Postman in a GitHub-like fashion.
@@ -118,9 +120,9 @@ Let's walk through the different parts of the request interface:
 
 1. **Request Name**: This is where you label your request for easy identification. You have the flexibility to name it anything that helps you remember its purpose. For instance, a request to fetch blog posts could be named `Get Posts`.
 2. **Request Method:** Here, you'll find a dropdown menu listing different types of `HTTP` requests. The default selection is `GET`, but you can change it to other methods like `POST`, `PUT`, etc., by selecting from this menu.
-3. **Request URL** - This field is for entering the API endpoint or web address you're sending the request to. It's the destination URL for your `HTTP` request.
+3. **Request URL** - The URL of the request. This is where we enter the URL destination for our `HTTP` request.
 4. **Save** - Use this button to save your current request configuration. This allows you to quickly access and reuse it later without having to set it up again from scratch.
-5. **Send** - Clicking this button will execute the request with the settings you've provided, including the Request Method and URL.
+5. **Send** - This button sends the request to the URL we entered in the request URL box.
 6. **Options** - This section allows you to customize your request further by adding additional parameters such as authorization credentials, custom headers, query parameters for more specific requests, and request bodies (especially for `POST` or `PUT` requests).
 
 ### Make a `get` request
