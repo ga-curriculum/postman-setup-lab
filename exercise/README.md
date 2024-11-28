@@ -1,4 +1,7 @@
-# ![Postman Setup Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Postman Setup Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 Welcome to the Postman Setup lab. In this lab, we will guide you through installing and using Postman for the first time. In the request and response cycle, a client sends a request and processes the response from a server. While we've previously explored the browser as a client, it's important to note that various clients can make requests to a server. Some of these clients are:
 

@@ -1,27 +1,39 @@
-# ![Postman Setup Lab](./assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Postman Setup Lab</span>
+</h1>
 
 ## About
 
 Welcome to the Postman Setup lab! In this lab, you will learn how to download and install Postman, create a Postman account, and make a `GET` request.
 
-## Prerequisites
+## Content
+
+- [Exercise](./exercise/README.md)
+
+## Internal
+
+### Prerequisites
 
 - HTTP Request Response Cycle
 
-## Time to complete
+### Time to complete
 
 Estimated time to complete core lab exercise: **30 min**
 
-## Content
+### Course landing pages
 
-- [Lab exercise](./exercise/README.md)
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/postman-setup-lab/canvas-landing-pages/seb)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/postman-setup-lab/canvas-landing-pages/fallback)
 
-## Internal resources
+### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
+
+🎥 [Video Hub](./internal-resources/video-hub.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
